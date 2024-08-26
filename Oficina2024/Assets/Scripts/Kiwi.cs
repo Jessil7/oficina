@@ -26,7 +26,7 @@ public class Kiwi : MonoBehaviour
             collected.SetActive(true);
             GameController.instance.totalScore += Score;
             GameController.instance.UpdateScoreText();
-            Destroy(gameObject, 0.25f);
+            Destroy(gameObject, 0.3f);
         }
     }
 }
